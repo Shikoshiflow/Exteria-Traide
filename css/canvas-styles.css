@@ -1,0 +1,18 @@
+/* Стили для анимированного фона */
+#background-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+  
+  /* Запасной фон на случай проблем с canvas */
+  body {
+    background-color: #0038913b;
+    background-image: 
+        radial-gradient(circle at 25% 15%, rgba(0, 102, 255, 0.19) 0%, transparent 50%),
+        radial-gradient(circle at 75% 85%, rgba(0, 238, 255, 0) 0%, transparent 50%);
+  }

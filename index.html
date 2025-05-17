@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exteria - Поставки из Европы и Турции</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/sequential-text.css">
+        <link rel="stylesheet" href="css/slider-styles.css">
+    </head>
+<body>
+   <!-- Навигация -->
+   <nav class="navbar container">
+    <div class="logo-container">
+        <a href="#home" class="logo">
+            <img src="images/logo.png" alt="Exteria traide" height="40">
+        </a>
+        <span class="gradient-text logo-text">Exteria traide</span>
+    </div>
+    <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="nav-links" id="nav-links">
+        <a href="#home">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#pricing">Тарифы</a>
+        <a href="#partners">Партнеры</a>
+        <a href="#contact">Контакты</a>
+    </div>
+</nav>
+    <!-- Главная секция -->
+    <!-- Секция hero с добавленными инфо-блоками -->
+    <section class="hero container" id="home">
+        <div class="hero-content">
+            <h1 class="fade-in-title">
+                Поставки продукции из 
+                <span class="gradient-text glow-text">
+                    <span class="cycle-words">
+                        <div class="words">
+                            <span>Европы и Турции</span>
+                            <span>Турции и Европы</span>
+                            <span>Европы и Азии</span>
+                            <span>Турции и СНГ</span>
+                        </div>
+                    </span>
+                </span> 
+                в Россию
+            </h1>
+            
+            <!-- Последовательная анимация текста -->
+            <div class="sequential-text-container">
+                <div class="text-line" id="line1">мы организуем поставку за <span class="gradient-text glow-text">45 операционных дней</span> под ключ</div>
+                <div class="text-line" id="line2">или мы не берем с вас <span class="gradient-text glow-text">ни копейки за наши услуги</span></div>
+            </div>
+            
+            <!-- Информационные блоки -->
+            <div class="info-blocks">
+                <div class="info-block">
+                    <div class="info-icon">🚚</div>
+                    <div class="info-text">Доставка от 7 дней</div>
+                </div>
+                <div class="info-block">
+                    <div class="info-icon">📦</div>
+                    <div class="info-text">B2B контракты</div>
+                </div>
+                <div class="info-block">
+                    <div class="info-icon">🌍</div>
+                    <div class="info-text">работаем по России и СНГ</div>
+                </div>
+            </div>
+            
+            <a href="#contact" class="neon-button">Оставить заявку</a>
+        </div>
+         <!-- Слайдер с 22 фотографиями для hero секции -->
+         <div class="hero-image-slider">
+            <!-- Контейнер для слайдов -->
+            <div class="slider-images">
+                <!-- 22 изображения -->
+                <img src="images/slide1.png" alt="Импорт товаров 1" class="slider-img active">
+                <img src="images/slide2.png" alt="Импорт товаров 2" class="slider-img">
+                <img src="images/slide3.png" alt="Импорт товаров 3" class="slider-img">
+                <img src="images/slide4.png" alt="Импорт товаров 4" class="slider-img">
+                <img src="images/slide5.png" alt="Импорт товаров 5" class="slider-img">
+                <img src="images/slide6.png" alt="Импорт товаров 6" class="slider-img">
+                <img src="images/slide7.png" alt="Импорт товаров 7" class="slider-img">
+                <img src="images/slide8.png" alt="Импорт товаров 8" class="slider-img">
+                <img src="images/slide9.png" alt="Импорт товаров 9" class="slider-img">
+                <img src="images/slide10.png" alt="Импорт товаров 10" class="slider-img">
+                <img src="images/slide11.png" alt="Импорт товаров 11" class="slider-img">
+                <img src="images/slide12.png" alt="Импорт товаров 12" class="slider-img">
+                <img src="images/slide13.png" alt="Импорт товаров 13" class="slider-img">
+                <img src="images/slide14.png" alt="Импорт товаров 14" class="slider-img">
+                <img src="images/slide15.png" alt="Импорт товаров 15" class="slider-img">
+                <img src="images/slide16.png" alt="Импорт товаров 16" class="slider-img">
+                <img src="images/slide17.png" alt="Импорт товаров 17" class="slider-img">
+                <img src="images/slide18.png" alt="Импорт товаров 18" class="slider-img">
+                <img src="images/slide19.png" alt="Импорт товаров 19" class="slider-img">
+                <img src="images/slide20.png" alt="Импорт товаров 20" class="slider-img">
+                <img src="images/slide21.png" alt="Импорт товаров 21" class="slider-img">
+                <img src="images/slide22.png" alt="Импорт товаров 22" class="slider-img">
+            </div>
+
+              <!-- Кнопки навигации -->
+              <div class="slider-controls">
+    <button class="slider-prev">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 18L9 12L15 6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+    
+    <!-- Счетчик слайдов вместо точек -->
+    <div class="slider-counter">
+        <span id="current-slide">1</span>/<span id="total-slides">22</span>
+    </div>
+    
+    <button class="slider-next">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 6L15 12L9 18" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</div>
+        </div>
+    </section>
+ 
+<!-- О нас -->
+ <section class="about" id="about">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>О <span class="gradient-text">КОМПАНИИ EXTERIA</span></h2>
+                <p>Exteria — ваш стратегический партнёр в международных поставках премиальных строительных материалов, нефтехимической продукции и продуктов питания. Более 15 лет опыта работы с ведущими турецкими производителями позволили нам заслужить безупречную репутацию и глубокое понимание потребностей клиентов.</p>
+                <p>Мы разработали систему поставок «под ключ», полностью освобождающую вас от забот, связанных с импортом. Наша миссия — сделать процесс поставки максимально простым и эффективным.</p>
+                <p>Головной офис в Стамбуле и филиал в Москве обеспечивают слаженную работу по всему комплексу услуг. Специалисты Exteria тщательно прорабатывают каждый запрос и предлагают оптимальные решения. В команде — эксперты по ВЭД и закупкам товаров любой сложности, включая высокотехнологичное оборудование.</p>
+                <h3><span class="gradient-text">Наша Команда</span></h3>
+                <p>— это высококвалифицированные специалисты по внешнеэкономической деятельности и закупкам товаров любой сложности, включая технологически сложное оборудование. Владение английским, русским, турецким и арабским языками позволяет нам выстраивать эффективную коммуникацию с партнёрами и поставщиками по всему миру.</p>
+                <h3><span class="gradient-text">Наша Миссия</span></h3>
+                <p>Наша цель - сделать процесс импорта максимально простым и эффективным для наших клиентов.</p>
+                <p>Exteria — искусство надежных поставок</p>
+            </div>
+            <div class="about-image">
+                <img src="images/about-image.jpg" alt="О нашей компании">
+            </div>
+        </div>
+    </div>
+</section>
+
+     <!-- Услуги -->
+     <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши <span class="gradient-text">услуги</span></h2>
+                <p>Комплексный подход к решению задач импорта</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">🔍</div>
+                    <h3>Поиск и выкуп продукции</h3>
+                    <p>Находим товары и подбираем надежных производителей с выгодными ценами для вашего бизнеса. Предостовляем удобную систему выкупа продукции с учетом предоплаты в Размере 50% от стоимости контракта. С нами вы экономите вплоть до 30% от стоимости продукции локальных дистрибьютеров</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">💳</div>
+                    <h3>Финансовое сопровождение</h3>
+                    <p>Обеспечиваем безопасное проведение всех необходимых финансовых операций, контроль за платежными поручениями и сроками финансовых переводов.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🚚</div>
+                    <h3>Логистика</h3>
+                    <p>Организуем транспортировку продукции на всех этапах от производителя до вашего склада в России.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">📝</div>
+                    <h3>Таможенное оформление</h3>
+                    <p>Полностью берем на себя все таможенные процедуры и документы для легального импорта в Россию.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Тарифы -->
+<section class="pricing" id="pricing">
+    <div class="container">
+        <div class="section-title">
+            <h2>Наша <span class="gradient-text">тарифная сетка</span></h2>
+            <p>Прозрачные условия сотрудничества для любого объема поставок</p>
+        </div>
+        
+        <div class="pricing-info">
+            <p>Чем больше объем поставки, тем выгоднее для вас становится сотрудничество с нами.</p>
+        </div>
+        
+        <div class="pricing-cards">
+            <div class="pricing-card fade-in">
+                <div class="price-header">
+                    <div class="amount">До 10 000 €</div>
+                </div>
+                <div class="percentage">
+                    <span class="percentage-value">8%</span>
+                </div>
+            </div>
+            
+            <div class="pricing-card fade-in">
+                <div class="price-header">
+                    <div class="amount">10 000 - 50 000 €</div>
+                </div>
+                <div class="percentage">
+                    <span class="percentage-value">7%</span>
+                </div>
+            </div>
+            
+            <div class="pricing-card fade-in">
+                <div class="price-header">
+                    <div class="amount">50 000 - 100 000 €</div>
+                </div>
+                <div class="percentage">
+                    <span class="percentage-value">6%</span>
+                </div>
+            </div>
+            
+            <div class="pricing-card fade-in">
+                <div class="price-header">
+                    <div class="amount">От 100 000 €</div>
+                </div>
+                <div class="percentage">
+                    <span class="percentage-value">5%</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="pricing-info" style="margin-top: 40px;">
+            <h2><span class="gradient-text">Программа лояльности: скидки на следующие контракты, приоритет в отгрузках, VIP-поддержка</span></h2>
+            <p>Свяжитесь с нами для расчета стоимости вашего проекта и получения индивидуального предложения.</p>
+            
+            <a href="#contact" class="neon-button" style="margin-top: 20px;">Получить расчет</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Контакты -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Оставьте <span class="gradient-text">заявку</span></h2>
+                <p>Заполните форму, и наш менеджер свяжется с вами в ближайшее время</p>
+            </div>
+            <div class="contact-form">
+                <form id="inquiry-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" name="user_name" required>       
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Компания</label>
+                            <input type="text" id="company" name="user_company">
+                        </div>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="user_email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="user_phone" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Интересующая услуга</label>
+                        <div class="select-wrapper">
+                            <select id="service" name="user_service" class="form-select" required>
+                                <option value="" selected disabled hidden>Выберите</option>
+                                <option value="search">Подбор продукции</option>
+                                <option value="payments">Организация платежей</option>
+                                <option value="acceptance">Приемка продукции</option>
+                                <option value="delivery">Организация логистики</option>
+                                <option value="customs">Таможенное оформление</option>
+                                <option value="full-service">Полный комплекс услуг</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" name="user_message" rows="5" required></textarea>
+                    </div>
+                    
+                    <!-- Добавляем дополнительный div для сообщений об отправке -->
+                    <div id="form-status" class="status-message" style="display: none;"></div>
+                    
+                    <button type="submit" class="neon-button">
+                        <span class="button-text">Отправить заявку</span>
+                        <div class="button-loader" style="display: none;">
+                            <svg class="spinner" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="30 150" stroke-dashoffset="0">
+                                    <animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="1s" repeatCount="indefinite"/>
+                                </circle>
+                            </svg>
+                        </div>
+                    </button>
+                </form>
+                
+                  <!-- WhatsApp Contact Button -->
+                <div class="whatsapp-contact-container">
+                    <a href="https://wa.me/905304292040" class="whatsapp-contact-button" target="_blank" aria-label="Contact us on WhatsApp">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="whatsapp-icon">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 31C24.2843 31 31 24.2843 31 16C31 7.71573 24.2843 1 16 1C7.71573 1 1 7.71573 1 16C1 24.2843 7.71573 31 16 31Z" fill="#25D366"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.2398 9.7598C20.6598 8.1798 18.5598 7.2998 16.3198 7.2998C11.6998 7.2998 7.93984 11.0598 7.93984 15.6798C7.93984 17.1998 8.33984 18.6798 9.09984 19.9598L7.87984 24.1198L12.1398 22.9198C13.3798 23.6198 14.8398 23.9798 16.3198 23.9798C20.9398 23.9798 24.6998 20.2198 24.6998 15.5998C24.6998 13.3598 23.8198 11.3398 22.2398 9.7598ZM16.3198 22.5198C14.9998 22.5198 13.6798 22.1598 12.5198 21.5198L12.1998 21.3598L9.65984 22.0598L10.3598 19.5998L10.1998 19.2798C9.49984 18.0598 9.13984 16.8798 9.13984 15.6798C9.13984 11.8398 12.3998 8.7598 16.2398 8.7598C18.1198 8.7598 19.8398 9.4798 21.1798 10.8198C22.5198 12.1598 23.1598 13.8798 23.1598 15.7598C23.2398 19.5998 20.0598 22.5198 16.3198 22.5198ZM20.0598 17.5198C19.7998 17.3598 18.5198 16.7598 18.3598 16.6798C18.1198 16.5998 17.9598 16.5198 17.7998 16.7798C17.6398 17.0398 17.1998 17.5598 17.0398 17.7198C16.8798 17.8798 16.7198 17.9598 16.4598 17.7998C14.9998 17.0798 14.0398 16.5198 13.0798 14.8798C12.8398 14.4798 13.3198 14.5198 13.7598 13.6398C13.8398 13.4798 13.7598 13.3198 13.6798 13.1598C13.5998 12.9998 13.1198 11.7198 12.8798 11.1998C12.6398 10.6798 12.3998 10.7598 12.2398 10.7598C12.0798 10.7598 11.9198 10.7598 11.7598 10.7598C11.5998 10.7598 11.3398 10.8398 11.1798 11.0398C10.9398 11.2998 10.3198 11.8998 10.3198 13.1798C10.3198 14.4598 11.2598 15.6798 11.3998 15.8398C11.5398 15.9998 13.0398 18.3598 15.3998 19.4998C17.1198 20.3198 17.7998 20.3998 18.6398 20.2398C19.1598 20.1598 20.1998 19.6398 20.4398 19.0398C20.6798 18.4398 20.6798 17.9198 20.5998 17.7998C20.5198 17.6798 20.3198 17.5998 20.0598 17.5198Z" fill="white"/>
+                        </svg>
+                        <span class="whatsapp-text">Напишите нам в WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Футер -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Exteria traide</h3>
+                <p>Ваш надежный партнер в организации поставок из Европы и Турции в Россию.</p>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Услуги</h3>
+                <ul>
+                    <li><a href="#services">Подбор продукции</a></li>
+                    <li><a href="#services">Организация логистики</a></li>
+                    <li><a href="#services">Организация платежей</a></li>
+                    <li><a href="#services">Таможенное оформление</a></li>
+                    
+                </ul>
+            </div>
+            
+           <div class="footer-column">
+                <h3>Контакты</h3>
+                <ul>
+                    <li><a href="tel:+79295446056">Телефон: +7 929 544 60 56</a></li>
+                    <li><a href="tel:+905304292040">Телефон: +90 530 429 20 40</a></li>
+                    <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=Mansur.malsagov@exteriatrade.com&su=Запрос с сайта Exteria Traide&body=Здравствуйте! Меня интересует информация о ваших услугах." target="_blank">Email: Mansur.malsagov@exteriatrade.com</a></li>
+                    <li><a href="https://maps.google.com/?q=Москва,+Тверская+улица,+4" target="_blank">Адрес: г. Москва, ул. Тверская д.4</a></li>
+                    <li><a href="https://maps.google.com/?q=Skyland+Istanbul,+Huzur,Azerbaycan+Cd.No:4,34415+Saryier/Istanbul" target="_blank">Адрес: Huzur,Azerbaycan Cd.No:4,34415 Saryier/Istanbul "Skyland Istanbul"</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Exteria traide. Все права защищены.</p>
+        </div>
+    </div>
+</footer>  
+
+    <!-- Подключение JavaScript-файлов -->
+    <script src="js/script.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/sequential-text.js"></script>
+    
+    <!-- Подключение EmailJS библиотеки -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Подключение обработчика для EmailJS -->
+    <script src="js/email-fix.js"></script>
+</body>
+</html>
